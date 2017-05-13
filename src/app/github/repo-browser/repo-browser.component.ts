@@ -13,6 +13,7 @@ export class RepoBrowserComponent {
   }
 
   searchForOrg(orgName: string) {
+    console.log("orgName: ", orgName);
     this.github.getOrg(orgName)
       .subscribe(({name}) => {
         console.log(name);

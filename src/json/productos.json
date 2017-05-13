@@ -1,0 +1,47 @@
+[
+  {
+    "id_producto":1,
+    "nombre_producto":"Producto 1",
+    "precio":120.34,
+    "cantidad":10,
+    "estado":1,
+    "desc_producto":"Descripcion Producto",
+    "fotos":[
+      {"url":"img/foto1","orden":1},
+      {"url":"img/foto2","orden":2},
+      {"url":"img/foto3","orden":3},
+      {"url":"img/foto4","orden":4}
+    ],
+    "meta_tag_title":"Titulo meta",
+    "meta_tag_desc":"Descripcion meta tag",
+    "meta_tag_keywords":"tag1, tag2, tag3",
+    "modelo":"Sansung J5",
+    "codigo":"XHR-99030302",
+    "clase" :"Electonico",
+    "cantidad_min":2,
+    "prioridad":1,
+    "descuentos":[
+      {
+        "grupo":"grupo 1",
+        "cantidad":10,
+        "descuento":50.25,
+        "date_start":"07/01/2014",
+        "date_end":"07/01/2014"
+      },
+      {
+        "grupo":"grupo 2",
+        "cantidad":10,
+        "descuento":50.25,
+        "date_start":"07/01/2014",
+        "date_end":"07/01/2014"
+      },
+      {
+        "grupo":"grupo 3",
+        "cantidad":10,
+        "descuento":50.25,
+        "date_start":"07/01/2014",
+        "date_end":"07/01/2014"
+      }
+    ]
+  }
+]
